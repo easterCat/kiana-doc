@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      "chexo@1.0.7",
+      "C:\\Users\\Administrator\\Desktop\\docs-docs"
+    ]
+  ],
+  "_development": true,
+  "_from": "chexo@1.0.7",
+  "_id": "chexo@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha512-7ScGKzHsZDLpCZhzIypwbK+hkx1fkWZjeLemEkmnreThGLNWhLRDC4gJ/Wu04jAbH0zYR/ev0QPAACEnaYXrcA==",
+  "_location": "/chexo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "chexo@1.0.7",
+    "name": "chexo",
+    "escapedName": "chexo",
+    "rawSpec": "1.0.7",
+    "saveSpec": null,
+    "fetchSpec": "1.0.7"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/chexo/-/chexo-1.0.7.tgz",
+  "_spec": "1.0.7",
+  "_where": "C:\\Users\\Administrator\\Desktop\\docs-docs",
+  "author": {
+    "name": "Meteor Development Group"
+  },
+  "bin": {
+    "chexo": "bin/chexo.js"
+  },
+  "bugs": {
+    "url": "https://github.com/abernix/chexo/issues"
+  },
+  "dependencies": {
+    "hexo-cli": "^1.1.0",
+    "minimist": "^1.2.0"
+  },
+  "description": "Run 'hexo' from a module-based configuration.",
+  "homepage": "https://github.com/abernix/chexo#readme",
+  "keywords": [],
+  "license": "MIT",
+  "name": "chexo",
+  "peerDependencies": {
+    "hexo": ">= 3.3.0 < 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abernix/chexo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.7"
+}

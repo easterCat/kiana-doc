@@ -1,0 +1,58 @@
+{
+  "_args": [
+    [
+      "meteor-theme-hexo@2.0.1",
+      "C:\\Users\\Administrator\\Desktop\\docs-docs"
+    ]
+  ],
+  "_development": true,
+  "_from": "meteor-theme-hexo@2.0.1",
+  "_id": "meteor-theme-hexo@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-VOmIeIvWbeyjtOwNNI2qnujltrddFic49fvoJrOWPR09cDz2aMO3phAxXF7h7arlxo3YMkHisQxr2jnoM+wkGQ==",
+  "_location": "/meteor-theme-hexo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "meteor-theme-hexo@2.0.1",
+    "name": "meteor-theme-hexo",
+    "escapedName": "meteor-theme-hexo",
+    "rawSpec": "2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "2.0.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/meteor-theme-hexo/-/meteor-theme-hexo-2.0.1.tgz",
+  "_spec": "2.0.1",
+  "_where": "C:\\Users\\Administrator\\Desktop\\docs-docs",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/meteor/meteor-hexo-theme/issues"
+  },
+  "dependencies": {},
+  "description": "[Read the docs docs.](https://docs-docs.netlify.com/docs/docs/)",
+  "devDependencies": {
+    "fs-extra": "^5.0.0",
+    "js-yaml": "^3.10.0",
+    "shelljs": "^0.8.1",
+    "simple-git": "^1.89.0",
+    "tarball-extract": "0.0.6",
+    "tmp-promise": "^1.0.4"
+  },
+  "homepage": "https://github.com/meteor/meteor-hexo-theme#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "meteor-theme-hexo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meteor/meteor-theme-hexo.git"
+  },
+  "scripts": {
+    "test": "node ./tests/index.js"
+  },
+  "version": "2.0.1"
+}

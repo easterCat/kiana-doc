@@ -6,8 +6,6 @@
     "version": "3.8.0"
   },
   "devDependencies": {
-    "apollo-hexo-config": "1.0.8",
-    "chexo": "1.0.7",
     "hexo": "3.8.0",
     "hexo-browsersync": "0.3.0",
     "hexo-prism-plus": "1.1.0",
@@ -15,11 +13,13 @@
     "hexo-renderer-less": "0.2.0",
     "hexo-renderer-marked": "0.3.2",
     "hexo-server": "0.3.3",
-    "meteor-theme-hexo": "2.0.1"
+    "chexo": "1.0.7",
+    "meteor-theme-hexo": "2.0.1",
+    "meteor-hexo-config": "^1.0.9"
   },
   "scripts": {
-    "start": "npm run build && chexo apollo-hexo-config -- server",
-    "build": "chexo apollo-hexo-config -- generate",
+    "start": "npm run build && node ./chexo/bin/chexo.js -- server",
+    "build": "node ./chexo/bin/chexo.js -- generate",
     "clean": "hexo clean",
     "test": "npm run clean; npm run build"
   },
